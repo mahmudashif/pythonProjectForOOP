@@ -1,0 +1,131 @@
+.headerPart{
+    width: 100%;
+    height: 50px;
+    background-color: #477018;
+    align-items: center;
+    margin: auto;
+}
+.headerPart p{
+    max-width: 1300px;
+    margin: auto;
+    color: white;
+}
+
+.navIcon i{
+    padding-left: 50px;
+}
+
+
+.bannerPart{
+    padding-top: 200px;
+    display: flex;
+    align-items: center;
+    padding-left: 125px;
+    background-color: #F8F8F8;
+    width: 100%;
+}
+
+.headingPart{
+    margin-left: 190px;
+    
+}
+.headingPart h1{
+    text-transform: uppercase;
+    font-weight: 700;
+    width: 636px;
+}
+
+.headingPart p{
+    width: 500px;
+    margin-top: 20px;
+}
+
+.headingPart button{
+    padding: 15px 51px;
+    border-radius: 20px;
+    background-color: orange;
+    border: none;
+    color: white;
+    font-weight: 900;
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+.bannerImgPart{
+    justify-content: end;
+    align-items: end;
+}
+
+
+.offer{
+    max-width: 1300px;
+    margin: auto;
+    justify-content: space-around;
+    margin-top: 200px;
+    display: flex;
+}
+.offer div{
+    text-align: center;
+}
+
+
+
+.treanding{
+    max-width: 1300px;
+    margin: auto;
+    margin-top: 100px;
+    padding-bottom: 100px;
+    
+}
+
+.itemList{
+    background-color: #F8F8F8;
+    display: inline-block;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.itemList span:hover{
+    color: orange;
+    font-weight: 900;
+}
+
+
+/* fruits for live healthy start here */
+
+.fruitFor{
+    margin-top: 50px;
+    background-color: teal;
+    padding: 30px;
+    width: 300px;
+}
+
+.fruitFor h2{
+    width: 170px;
+    font-size: 25px;
+    font-weight: 700;
+    display: block;
+}
+
+.fruitFor p{
+    width: 200px;
+    padding-top: 20px;
+    display: block;
+}
+
+.fruitFor button{
+    margin-top: 20px;
+    border: none;
+    padding: 20px 50px;
+    background-color: orange;
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    border-radius: 20px;
+} 
+
+.active a{
+    border-bottom: 3px solid teal;
+    font-size: 20px;
+    font-weight: 700;
+}
