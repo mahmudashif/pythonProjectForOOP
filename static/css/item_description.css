@@ -1,0 +1,88 @@
+.description{
+    display: flex;
+}
+
+.descriptionItem{
+    display: flex;
+    max-width: 1300px;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 100px;
+}
+
+.descriptionBar{
+    padding-top: 100px;
+    max-width: 1300px;
+    margin: auto;
+}
+
+.descriptionBar .descriptionBarList li{
+    list-style: none;
+}
+.descriptionBar .descriptionBarList{
+    display: flex;
+    justify-content: space-between;
+}
+
+.descriptionBarOne{
+    color: orange;
+    font-weight: 700;
+    border-bottom: 3px solid orange;
+    font-size: 18px;
+}
+
+.threeFruits{
+    padding-left: 20px;
+    padding-right: 120px;
+    align-items: center;
+    margin: auto;
+}
+
+.OrganicTenders .tenderHeader{
+    font-size: 50px;
+    margin: auto;
+    padding-bottom: 20px;
+}
+
+.OrganicTenders .price{
+    font-size: 26px;
+}
+
+.OrganicTenders .IncreaseDecrease{
+    padding: 20px 30px;
+    border: none;
+    background-color: teal;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 20px;
+}
+
+.OrganicTenders .forCart{
+    padding: 10px 30px;
+    border: none;
+    background-color: teal;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 20px;
+    margin-left: 5px;
+}
+
+.OrganicTenders .buyNow{
+    padding: 20px 110px;
+    border: none;
+    background-color: teal;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+.OrganicTenders .author{
+    margin-left: 22px;
+    font-size: 20px;
+    margin-top: 30px;
+}

@@ -25,4 +25,5 @@ urlpatterns = [
     path('category/', views.category),
     path('shop/', views.shop),
     path('aboutus/', views.aboutUs),
+    path('item_description/',views.itemDescription),
 ]

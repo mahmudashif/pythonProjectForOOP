@@ -32,7 +32,13 @@ def aboutUs(request):
     title={
         'title':'About Us'
     }
-    return render(request,"aboutus.html",title)
+    return render(request,"about_us.html",title)
+
+def itemDescription(request):
+    title={
+        'title':'Item Description'
+    }
+    return render(request,'item_description.html',title)
     
     
     

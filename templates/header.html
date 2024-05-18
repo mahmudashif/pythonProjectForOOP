@@ -18,6 +18,7 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
+
 </head>
 <body>
     <header class="headerPart"><p>welcome to our organic store.</p></header>
@@ -49,16 +50,11 @@
                 >Accessories</a
               >
             </li>
-            <li class="nav-item {% if request.path == '/category/' %} active {% endif %}">
-              <a class="nav-link active" aria-current="page" href="#"
-                >Category</a
-              >
-            </li>
             <li class="nav-item {% if request.path == '/shop/' %} active {% endif %}">
               <a class="nav-link active" aria-current="page" href="/shop">Shop</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#"
+            <li class="nav-item {% if request.path == '/aboutus/' %} active {% endif %}">
+              <a class="nav-link active" aria-current="page" href="/aboutus"
                 >About Us</a
               >
             </li>
