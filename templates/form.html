@@ -1,32 +1,42 @@
-{% include "header.html" %}
-<link rel="stylesheet" href="/static/css/form.css" />
-<br>
-<br>
-<br>
-<div class="form-container">
-    <h2>Order Form</h2>
-    <form id="orderForm" method="post">
-        {% csrf_token %}
-        <label for="name" class="form-label">Name:</label>
-        <input placeholder="Enter Your Name" type="text" id="name" name="name" class="form-input"><br>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Form</title>
+    <link rel="stylesheet" href="/static/css/form.css">
+</head>
+<body>
+    <div class="form-container">
+        <h2>Order Form</h2>
+        <form id="orderForm" onsubmit="redirectToSuccess(event)">
+            <label for="name" class="form-label">Name:</label>
+            <input placeholder="Enter Your Name" type="text" id="name" name="name" class="form-input" required><br>
 
-        <label for="number" class="form-label">Phone Number:</label>
-        <input placeholder="Enter Your Phone Number" type="text" id="number" name="number" class="form-input"><br>
+            <label for="number" class="form-label">Phone Number:</label>
+            <input placeholder="Enter Your Phone Number" type="text" id="number" name="number" class="form-input" required><br>
 
-        <label for="int_number" class="form-label">Quantity:</label>
-        <input type="number" placeholder="Enter Quantity" id="int_number" name="int_number" class="form-input" oninput="calculateTotal()"><br>
+            <label for="int_number" class="form-label">Quantity:</label>
+            <input placeholder="Enter Quantity" type="number" id="int_number" name="int_number" class="form-input" oninput="calculateTotal()" required><br>
 
-        <label for="total_amount" class="form-label">Total Amount:</label>
-        <input type="text" id="total_amount" name="total_amount" placeholder="$250 per kg" class="form-input" readonly><br>
+            <label for="total_amount" class="form-label">Total Amount:</label>
+            <input placeholder="50 $ per kg" type="text" id="total_amount" name="total_amount" class="form-input" readonly><br>
 
-        <input type="submit" value="Submit" class="form-submit">
-    </form>
-</div>
+            <input type="submit" value="Submit" class="form-submit">
+        </form>
+    </div>
 
-<script>
-    function calculateTotal() {
-        var intNumber = document.getElementById('int_number').value;
-        var totalAmount = intNumber * 250;
-        document.getElementById('total_amount').value = totalAmount;
-    }
-</script>
+    <script>
+        function calculateTotal() {
+            var intNumber = document.getElementById('int_number').value;
+            var totalAmount = intNumber * 50;
+            document.getElementById('total_amount').value = totalAmount;
+        }
+
+        function redirectToSuccess(event) {
+            event.preventDefault();
+            window.location.href = '/confirm/';
+        }
+    </script>
+</body>
+</html>

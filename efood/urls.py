@@ -27,4 +27,5 @@ urlpatterns = [
     path('aboutus/', views.aboutUs),
     path('item_description/',views.itemDescription),
     path('order_form/',views.oderForm),
+    path('confirm/',views.successful),
 ]

@@ -1,5 +1,5 @@
 from django.http import HttpResponse
-from django.shortcuts import render
+from django.shortcuts import render, redirect
 
 
 def home(request):
@@ -47,4 +47,9 @@ def oderForm(request):
     }
     return render(request,'form.html',title)
     
-    
+
+def successful(request):
+    title={
+        'title':'confirm'
+    }
+    return render(request,'success.html',title)
