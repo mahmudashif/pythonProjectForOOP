@@ -91,26 +91,21 @@
 }
 
 
-/* fruits for live healthy start here */
-
 .fruitFor{
     margin-top: 50px;
-    background-color: teal;
+    background-color: #F8F8F8;
     padding: 30px;
-    width: 300px;
 }
 
 .fruitFor h2{
     width: 170px;
     font-size: 25px;
     font-weight: 700;
-    display: block;
 }
 
 .fruitFor p{
     width: 200px;
     padding-top: 20px;
-    display: block;
 }
 
 .fruitFor button{
@@ -121,27 +116,39 @@
     font-size: 18px;
     color: white;
     font-weight: bold;
-    border-radius: 40px;
+    border-radius: 20px;
 } 
 
-.active a{
-    border-bottom: 3px solid teal;
-    font-size: 20px;
-    font-weight: 700;
+
+h1{
+    color: red;
 }
+
 
 .productList{
-    padding-top: 100px;
-    padding-bottom: 100px;
-}
-
-.listOfProduct{
+    padding-top: 150px;
     max-width: 1300px;
     margin: auto;
-    display: flex;
-    justify-content: space-between;
+    position: relative;
     text-align: center;
 }
-.listOfProduct .rating{
+
+.forHover:hover{
+    padding: 30px;
+    background-color: teal;
+    color: white;
+    font-weight: 800;
+}
+
+.productList .rating{
     text-align: center;
+}
+
+.productList .listOne{
+    display: flex;
+    justify-content: space-between;
+}
+
+.forHover:hover{
+    background-color: teal;
 }
