@@ -1,0 +1,24 @@
+.accessories h1{
+    color: teal;
+    font-size: 100px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.accessories p{
+    font-size: 50px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.accessories button{
+    padding: 20px 40px;
+    display: flex;
+    margin: auto;
+    font-size: 30px;
+    margin-top: 150px;
+}
+
+.accessories button a{
+    text-decoration: none;
+}

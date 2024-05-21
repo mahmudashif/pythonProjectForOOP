@@ -1,0 +1,107 @@
+.shop{
+    position: relative;
+}
+
+.shopBanner{
+    width: 100%;
+}
+
+.shop h3{
+    position: absolute;
+    margin-top: -190px;
+    margin-left: 300px;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+
+.categoriesSection{
+    max-width: 1300px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.categoriesSection1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.categoriesSection1 input{
+    padding: 20px 40px;
+}
+
+.categoriesSection2{
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.categoriesSection2_1_1{
+    line-height: 2;
+    border: 2px solid gray;
+    display: table;
+    padding: 20px;
+}
+
+.categoriesSection2_1_2{
+    margin-top: 20px;
+    display: table;
+    line-height: 3;
+    border: 2px solid gray;
+    padding-right: 0;
+    padding: 20px;
+}
+.categoriesSection2_1_2 ul li{
+    list-style: circle;
+}
+
+
+.tags{
+    margin-top: 20px;
+    border: 2px solid gray;
+    display: table;
+    padding: 14px;
+}
+.tags button{
+    padding: 20px 10px;
+    margin: 10px;
+}
+
+.itemOfShop{
+    display: flex;
+    gap: 80px;
+    position: relative;
+}
+.itemOfShop img{
+    margin-bottom: 100px;
+}
+
+.categoris{
+    font-weight: 900;
+    font-size: 50px;
+    margin-top: 50px;
+    text-align: center;
+    border: 3px solid teal;
+}
+
+
+.itemOfShop img:hover{
+    opacity: 0.20;
+    
+}
+
+.itemOfShopParagraph:hover{
+    opacity: 1;
+}
+
+.itemOfShopParagraph{
+    position: absolute;
+    margin-top: -155px;
+    margin-left: 106px;
+    font-size: 28px;
+    font-weight: 800;
+    opacity: 0;
+    cursor: none;
+}

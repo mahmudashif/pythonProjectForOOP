@@ -1,0 +1,54 @@
+.footer{
+    background-color: #373C33;
+    padding: 100px 0;
+    margin-top: 100px;
+}
+
+.footerDiv{
+    color: white;
+    max-width: 1300px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.callIcon{
+    background-color: teal;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.location{
+    background: teal;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.contact{
+    display: flex;
+    align-items: center;
+}
+
+.locationPart{
+    display: flex;
+    align-items: center;
+}
+
+.callIcon{
+    border-radius: 50%;
+}
+
+.location{
+    border-radius: 50%;
+}
+
+.emailBox{
+    padding: 10px 20px;
+}
+
+.emailButton{
+    padding: 10px 20px;
+    color: white;
+    background-color: orange;
+    font-weight: 700;
+}
