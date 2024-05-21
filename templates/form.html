@@ -1,0 +1,23 @@
+{% include "header.html" %}
+<link rel="stylesheet" href="/static/css/form.css" />
+<br>
+<br>
+<br>
+    <div class="form-container">
+        <h2>Submit Your Information</h2>
+        <form action="/process" method="post">
+            <label for="name" class="form-label">Name:</label>
+            <input type="text" id="name" name="name" class="form-input"><br>
+
+            <label for="number" class="form-label">Number:</label>
+            <input type="text" id="number" name="number" class="form-input"><br>
+
+            <label for="int_number" class="form-label">Integer Number:</label>
+            <input type="number" id="int_number" name="int_number" class="form-input"><br>
+
+            <label for="total_amount" class="form-label">Total Amount:</label>
+            <input type="text" id="total_amount" name="total_amount" class="form-input" readonly><br>
+
+            <input type="submit" value="Submit" class="form-submit">
+        </form>
+    </div>

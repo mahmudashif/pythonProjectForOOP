@@ -39,6 +39,13 @@ def itemDescription(request):
         'title':'Item Description'
     }
     return render(request,'item_description.html',title)
+
+
+def oderForm(request):
+    title={
+        'title':'Order Form'
+    }
+    return render(request,'form.html',title)
     
     
     
